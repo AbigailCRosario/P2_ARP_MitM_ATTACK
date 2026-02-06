@@ -78,6 +78,7 @@ Para prevenir la suplantación ARP en redes empresariales, se recomienda impleme
 Esta función de seguridad utiliza la base de datos del DHCP Snooping para validar que cada respuesta ARP provenga realmente del dispositivo autorizado, descartando automáticamente las respuestas falsificadas por atacantes.
 
 ### Comandos:
+```bash
 Switch(config)# ip dhcp snooping
 Switch(config)# ip dhcp snooping vlan 1
 Switch(config)# ip arp inspection vlan 1
